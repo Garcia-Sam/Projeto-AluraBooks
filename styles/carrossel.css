@@ -41,6 +41,14 @@
     color: var(--laranja);
 }
 
+.descricao__imagem-estrelas {
+    margin: .5em;
+}
+
+.descricao__imagem {
+   padding: 1em 0;
+}
+
 .descricao__titulo-ivro {
     margin: .5em 0;
     font-size: 18px;
