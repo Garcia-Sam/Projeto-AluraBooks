@@ -12,6 +12,7 @@
 
 .topicos__lista {
     display: flex;
+    padding: .5em;
     flex-wrap: wrap;
     justify-content: center;
 }
