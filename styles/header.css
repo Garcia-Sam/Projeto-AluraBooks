@@ -100,6 +100,15 @@
         text-decoration: none;
     }
 
+    .opcoes__botao {
+        display: none;
+    }
+
+    .opcoes__botao:checked ~ .lista-menu{
+        width: auto;
+        display: block;
+    }
+
     .container__imagem-coracao {
         display: none;
     }
