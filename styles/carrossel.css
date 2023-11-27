@@ -85,3 +85,32 @@
     text-decoration: none;
     background-color: var(--laranja);
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin:  2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: 60%;
+        display: block;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+
+    .card__mais-vendidos {
+        width: 70%;
+    }
+}
