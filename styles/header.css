@@ -66,6 +66,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
     /*Layout Tablet 1024px*/
 @media screen and (min-width: 1024px) {
     .cabecalho__menu-hamburguer {
@@ -111,5 +115,30 @@
 
     .container__imagem-coracao {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .container {
+        margin-right: 1em;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+    }
+
+    .container__texto {
+        display: block;
+        color: var(--preto);
+        text-decoration: none;
     }
 }
