@@ -58,14 +58,8 @@
     -webkit-text-fill-color: transparent;
 }
 
-.container__titulo {
-    display: none;
-}
-
-.opcoes {
-    display: none;
-}
-
+.container__titulo,
+.opcoes,
 .container__texto {
     display: none;
 }
